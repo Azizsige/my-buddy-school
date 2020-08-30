@@ -1,0 +1,60 @@
+// Live preview Bagian Lupa password //
+https://www.figma.com/proto/VKjgoIZ2KLveortrrGjM1i/My-Buddyy-School-Copy?node-id=62%3A0&viewport=-735%2C-566%2C0.5&scaling=min-zoom
+
+
+// Lupa Password Style //
+
+- style tulisan Lupa Kata Sandi? :
+   font-family: Nunito Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+   color: #5C5C5C;
+
+- style tulisan dibawah Lupa Kata Sandi? : 
+  font-family: Nunito Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+  color: #5C5C5C;
+
+- style kotak inputnya : 
+    background: #FFFFFF;
+box-shadow: 0px 4px 40px rgba(0, 162, 233, 0.1);
+border-radius: 10px;
+
+- style tulisan yg ada di dlm input(placeholder) :
+     font-family: Nunito Sans;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+     color: #5C5C5C;
+
+- style button :
+   background: linear-gradient(180deg, #00A2E9 0%, #5FC2ED 100%);
+box-shadow: 0px 4px 40px rgba(0, 162, 233, 0.2);
+border-radius: 50px;
+
+- style tulisan di button :
+   font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+   color: #FFFFFF;
+
+
+// Embed untuk fonts //
+// Note : Usahakan terkoneksi internet agar fonts nya bisa kebaca //
+
+Nunito Sans : 
+   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+   
+    Rule Css nya : 
+     font-family: 'Nunito Sans', sans-serif;
+
+
+Roboto : 
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+   
+    Rule Css nya : 
+    font-family: 'Roboto', sans-serif;

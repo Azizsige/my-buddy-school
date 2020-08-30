@@ -1,0 +1,51 @@
+// Login Style //
+
+- style tulisan Login to access Dashboard :
+   font-family: Nunito Sans;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 24px;
+   color: #5C5C5C;
+
+- style tulisan Lupa Password : 
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #5C5C5C;
+
+- style tulisan yg ada di dlm input(placeholder) :
+     font-family: Nunito Sans;
+     font-style: normal;
+     font-weight: 300;
+     font-size: 16px;
+     color: #5C5C5C;
+
+- style button :
+   background: linear-gradient(180deg, #00A2E9 0%, #5FC2ED 100%);
+   box-shadow: 0px 4px 40px rgba(0, 162, 233, 0.2);
+   border-radius: 50px;
+
+- style tulisan di button :
+   font-family: Roboto;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   color: #FFFFFF;
+
+
+// Embed untuk fonts //
+// Note : Usahakan terkoneksi internet agar fonts nya bisa kebaca //
+
+Nunito Sans : 
+   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap" rel="stylesheet">
+   
+    Rule Css nya : 
+     font-family: 'Nunito Sans', sans-serif;
+
+
+Roboto : 
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+   
+    Rule Css nya : 
+    font-family: 'Roboto', sans-serif;
