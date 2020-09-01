@@ -1,0 +1,244 @@
+/* Smaller Android */
+@media only screen and (min-width: 300px) and (max-width: 319px) {
+  .about {
+    height: 106em !important;
+  }
+  .course-content {
+    margin-top: -4em;
+  }
+
+  .text-overlay:nth-child(1) {
+    top: -6em;
+    left: 0.7em;
+  }
+
+  .text-overlay:nth-child(2) {
+    top: -6em;
+    left: 0.7em;
+  }
+
+  .text-overlay:nth-child(3) {
+    top: -6em;
+    left: 0.7em;
+  }
+
+  .box-course:last-child .text-overlay h5 {
+    font-size: 1.4em !important;
+  }
+
+  .box-course {
+    height: 26em !important;
+    width: 100% !important;
+    margin-top: 3em;
+  }
+
+  .recommended {
+    overflow-x: hidden !important;
+  }
+
+  .owl-carousel .next-slide {
+    left: 14em;
+    top: 11.3em;
+  }
+
+
+  .owl-carousel .next-slide {
+    background-image: url(./../../asset/dashboard/next.png);
+    position: absolute;
+    width: 40px !important;
+    height: 40px !important;
+    left: 14em !important;
+    top: 11.3em !important;
+  }
+
+  .box-recommended {
+    height: 482px !important;
+  }
+
+  .recommended .row.heading {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  .recommended .row.heading .col-md-2.text-left {
+    margin-top: 1em !important;
+  }
+
+  .thumb-text h5 {
+    font-size: 17px !important;
+    font-weight: bolder !important;
+  }
+
+  .box-recommended .box-text p {
+    font-size: 14px !important;
+    padding-right: 4em !important;
+    font-weight: bolder !important;
+  }
+
+  .box-footer-btn {
+    margin: 16px 0 0 17px !important;
+    width: 200px !important;
+  }
+}
+
+/* Small Android */
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+  .about {
+    height: 106em !important;
+  }
+
+  .course-content {
+    margin-top: -4em;
+  }
+
+  .text-overlay:nth-child(1) {
+    top: -6em;
+    left: 0.7em;
+  }
+
+  .text-overlay:nth-child(2) {
+    top: -6em;
+    left: 0.7em;
+  }
+
+  .text-overlay:nth-child(3) {
+    top: -6em;
+    left: 0.7em;
+  }
+
+  .box-course:last-child .text-overlay h5 {
+    font-size: 1.4em !important;
+  }
+
+  .box-course {
+    height: 26em !important;
+    width: 100% !important;
+    margin-top: 3em;
+  }
+}
+
+/* Standart Android */
+@media only screen and (min-width: 360px) and (max-width: 479px) {
+  .about {
+    height: 106em !important;
+  }
+
+  .course-content {
+    margin-top: -3em;
+  }
+
+  .box-course:nth-child(1) .course-content p {
+    font-size: 1.5em !important;
+  }
+
+  .box-course:nth-child(1) .course-content .footer-course .teacher-name h6 {
+    font-size: 1.2em !important;
+  }
+
+  .text-overlay:nth-child(1) {
+    top: -6em;
+    left: 0.7em;
+  }
+
+  .text-overlay:nth-child(2) {
+    top: -6em;
+    left: 0.7em;
+  }
+
+  .text-overlay:nth-child(3) {
+    top: -6em;
+    left: 0.7em;
+  }
+
+  .box-course:last-child .text-overlay h5 {
+    font-size: 1.4em !important;
+  }
+
+  .box-course {
+    height: 37em !important;
+  }
+}
+
+/* Tablet */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .course-content {
+    margin-top: -3em;
+  }
+
+  .box-course:nth-child(1) .course-content p {
+    font-size: 1.5em !important;
+  }
+
+  .box-course:nth-child(1) .course-content .footer-course .teacher-name h6 {
+    font-size: 1.2em !important;
+  }
+
+  .text-overlay:nth-child(1) {
+    top: -6em;
+    left: 0.7em;
+  }
+
+  .text-overlay:nth-child(2) {
+    top: -6em;
+    left: 0.7em;
+  }
+
+  .text-overlay:nth-child(3) {
+    top: -6em;
+    left: 0.7em;
+  }
+
+  .box-course:last-child .text-overlay h5 {
+    font-size: 1.4em !important;
+  }
+
+  .box-course {
+    height: 47em !important;
+  }
+}
+
+/* Medium Tablet  */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about {
+    height: 206em !important;
+  }
+
+  .course-content {
+    margin-top: -3em;
+  }
+
+  .box-course .course-content p {
+    font-size: 1.8em !important;
+  }
+
+  .box-course .course-content .footer-course .teacher-name h6 {
+    font-size: 1.2em !important;
+  }
+
+  .text-overlay:nth-child(1) {
+    top: -6em;
+    left: 0.7em;
+  }
+
+  .text-overlay:nth-child(2) {
+    top: -6em;
+    left: 0.7em;
+  }
+
+  .text-overlay:nth-child(3) {
+    top: -6em;
+    left: 0.7em;
+  }
+
+  .box-course .text-overlay h5 {
+    font-size: 2.3em !important;
+  }
+
+  .box-course .text-overlay a {
+    font-size: 1.3em !important;
+  }
+
+  .box-course {
+    height: 60em !important;
+  }
+}

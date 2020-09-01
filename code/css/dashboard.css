@@ -1,3 +1,5 @@
+@import url('./../responsive/dashresp.css');
+
 body {
   color: #444;
   overflow-x: hidden !important;
@@ -785,10 +787,10 @@ section {
 }
 
 /*--------------------------------------------------------------
-  # About Us
+  # My Course
   --------------------------------------------------------------*/
 
-.box-course {
+.about .box-course {
   width: 410px;
   height: 32em;
   background: #ffffff;
@@ -797,9 +799,9 @@ section {
 }
 
 .about {
-    padding: 28px;
-    background-color: #eff6fb;
-    height: 50em !important;
+  padding: 28px;
+  background-color: #eff6fb;
+  height: 50em;
 }
 
 .thumb {
@@ -920,215 +922,6 @@ section {
   color: #5c5c5c !important;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 319px) {
-  .course-content {
-    margin-top: -4em;
-  }
-
-  .text-overlay:nth-child(1) {
-    top: -6em;
-    left: 0.7em;
-  }
-
-  .text-overlay:nth-child(2) {
-    top: -6em;
-    left: 0.7em;
-  }
-
-  .text-overlay:nth-child(3) {
-    top: -6em;
-    left: 0.7em;
-  }
-
-  .box-course:last-child .text-overlay h5 {
-    font-size: 1.4em !important;
-  }
-
-  .box-course {
-    height: 26em !important;
-    width: 100% !important;
-    margin-top: 3em;
-  }
-}
-
-@media only screen and (min-width: 320px) and (max-width: 359px) {
-  .course-content {
-    margin-top: -4em;
-  }
-
-  .text-overlay:nth-child(1) {
-    top: -6em;
-    left: 0.7em;
-  }
-
-  .text-overlay:nth-child(2) {
-    top: -6em;
-    left: 0.7em;
-  }
-
-  .text-overlay:nth-child(3) {
-    top: -6em;
-    left: 0.7em;
-  }
-
-  .box-course:last-child .text-overlay h5 {
-    font-size: 1.4em !important;
-  }
-
-  .box-course {
-    height: 26em !important;
-    width: 100% !important;
-    margin-top: 3em;
-  }
-}
-
-@media only screen and (min-width: 360px) and (max-width: 479px) {
-  .course-content {
-    margin-top: -3em;
-  }
-
-  .box-course:nth-child(1) .course-content p {
-    font-size: 1.5em !important;
-  }
-
-  .box-course:nth-child(1) .course-content .footer-course .teacher-name h6 {
-    font-size: 1.2em !important;
-  }
-
-  .text-overlay:nth-child(1) {
-    top: -6em;
-    left: 0.7em;
-  }
-
-  .text-overlay:nth-child(2) {
-    top: -6em;
-    left: 0.7em;
-  }
-
-  .text-overlay:nth-child(3) {
-    top: -6em;
-    left: 0.7em;
-  }
-
-  .box-course:last-child .text-overlay h5 {
-    font-size: 1.4em !important;
-  }
-
-  /* .course-content .footer-course{
-    height: 100% !important;
-    justify-content: center !important;
-    align-items: center !important;
-    text-align: center !important;
-  } */
-
-  .box-course {
-    height: 37em !important;
-  }
-}
-
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-  .course-content {
-    margin-top: -3em;
-  }
-
-  .box-course:nth-child(1) .course-content p {
-    font-size: 1.5em !important;
-  }
-
-  .box-course:nth-child(1) .course-content .footer-course .teacher-name h6 {
-    font-size: 1.2em !important;
-  }
-
-  .text-overlay:nth-child(1) {
-    top: -6em;
-    left: 0.7em;
-  }
-
-  .text-overlay:nth-child(2) {
-    top: -6em;
-    left: 0.7em;
-  }
-
-  .text-overlay:nth-child(3) {
-    top: -6em;
-    left: 0.7em;
-  }
-
-  .box-course:last-child .text-overlay h5 {
-    font-size: 1.4em !important;
-  }
-
-  /* .course-content .footer-course{
-    height: 100% !important;
-    justify-content: center !important;
-    align-items: center !important;
-    text-align: center !important;
-  } */
-
-  .box-course {
-    height: 47em !important;
-  }
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .about {
-    height: 206em !important;
-  }
-
-  .course-content {
-    margin-top: -3em;
-  }
-
-  .box-course .course-content p {
-    font-size: 1.8em !important;
-  }
-
-  .box-course .course-content .footer-course .teacher-name h6 {
-    font-size: 1.2em !important;
-  }
-
-  .text-overlay:nth-child(1) {
-    top: -6em;
-    left: 0.7em;
-  }
-
-  .text-overlay:nth-child(2) {
-    top: -6em;
-    left: 0.7em;
-  }
-
-  .text-overlay:nth-child(3) {
-    top: -6em;
-    left: 0.7em;
-  }
-
-  .box-course .text-overlay h5 {
-    font-size: 2.3em !important;
-  }
-
-  .box-course .text-overlay a {
-    font-size: 1.3em !important;
-  }
-
-  .box-course {
-    height: 60em !important;
-  }
-}
-
-/* @media only screen and (min-width: 361px) and (max-width: 467px) {
-  .content-course {
-    flex-direction: column !important;
-  }
-
-  .box-course {
-    height: 32em !important;
-  }
-
-  .about {
-    height: 104em !important;
-  }
-} */
-
 @media (max-width: 992px) {
   .content-course {
     flex-direction: column !important;
@@ -1139,86 +932,146 @@ section {
     width: 100% !important;
     margin-top: 3em;
   }
-
-  /* .about {
-    height: 104em !important;
-  } */
 }
 
 /*--------------------------------------------------------------
-  # About Lists
+  # Recommended
   --------------------------------------------------------------*/
-.about-lists {
-  padding: 40px;
+.recommended {
+  padding: 28px;
   background-color: #eff6fb;
-  height: 621px;
 }
 
-.about-lists .row {
-  overflow: hidden;
-}
-
-.about-lists .container {
-  background-image: url("./../../asset/landing-page/komas.png");
-  background-repeat: no-repeat;
-  margin: auto !important;
-  text-align: center !important;
-}
-
-.about-lists .content-item {
-  padding: 40px;
-  border-left: 1px solid #d9e8f4;
-  border-bottom: 1px solid #d9e8f4;
-  margin: -1px;
-}
-
-.about-lists .content-item span {
-  display: block;
-  font-size: 24px;
-  font-weight: 400;
-  color: #9eccf4;
-}
-
-.about-lists .content-item h4 {
+.recommended .row.heading h3 {
   font-family: "Nunito Sans", sans-serif;
   font-style: normal;
-  font-weight: 900;
-  font-size: 48px;
-  color: #5c5c5c;
+  font-weight: bold;
+  font-size: 32px;
+  color: #00a2e9;
 }
 
-.about-lists .content-item .btn-list a {
-  background: #eff6fb;
-  border: 1px solid #00a2e9;
-  box-shadow: 0px 4px 40px rgba(0, 162, 233, 0.2);
-  border-radius: 50px;
-  color: #00a2e9 !important;
-  width: 181px;
-  height: 56px;
-  line-height: 2.3em !important;
+.recommended .row.heading a {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #447b93;
 }
 
-.about-lists .content-item .btn-list a:hover {
-  background: #00a2e9;
+.content-recommended {
+  height: 556px !important;
+}
+
+.box-recommended {
+  width: 302px;
+  height: 465px;
+  background: #fff;
+}
+
+.recommended-thumb {
+  position: relative;
+}
+
+.thumb-text {
+  position: absolute;
+  top: 7em;
+  padding: 1em;
+}
+
+.thumb-text h5 {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
   color: #fff !important;
 }
 
-.about-lists .content-item p {
-  color: #aaaaaa;
-  font-size: 15px;
-  margin: 0;
-  padding: 0;
+.thumb-text a {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #00a2e9 !important;
 }
 
-@media (max-width: 768px) {
-  .about-lists {
-    height: 60em !important;
-  }
-  .about-lists .content-item {
-    padding: 40px 0;
-  }
+.box-recommended .box-text p {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  color: #5c5c5c;
 }
 
+.box-footer {
+  border-top: 1px solid #e4e4e4 !important;
+}
+
+.box-footer-img {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.box-footer-img img {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.box-footer-name {
+  flex-direction: column !important;
+}
+
+.box-footer-name h6 {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  color: #5c5c5c;
+}
+
+.box-footer-name p {
+  font-family: "Nunito Sans", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  color: #969696;
+}
+
+.box-footer-btn {
+  width: 282px;
+  height: 40px;
+  background-image: linear-gradient(to right, #00a2e9, #5fc2ed);
+  border-radius: 5px;
+}
+
+.owl-carousel .prev-slide {
+  background-image: url("./../../asset/dashboard/prev.png");
+  position: absolute;
+  width: 40px !important;
+  height: 40px !important;
+  left: -1.5em;
+  top: 11em;
+}
+
+.owl-carousel .next-slide {
+  background-image: url("./../../asset/dashboard/next.png");
+  position: absolute;
+  width: 40px !important;
+  height: 40px !important;
+  left: 79em;
+  top: 11em;
+}
+
+.owl-carousel .prev-slide:hover {
+  background-color: transparent !important;
+}
+
+.owl-carousel .next-slide:hover {
+  background-color: transparent !important;
+}
+
+.owl-carousel .owl-nav.disabled {
+  display: block !important;
+}
 /*--------------------------------------------------------------
   # Counts
   --------------------------------------------------------------*/
