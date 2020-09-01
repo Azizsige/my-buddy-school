@@ -1,0 +1,64 @@
+body{
+    background-image: url(./../../asset/ganti-password/gantiPass-bg.png);
+}
+h1{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    color: #5C5C5C;
+}
+p{
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #5C5C5C;
+}
+div{
+    /* width: fit-content; */
+    /* background-color: #00A2E9; */
+    margin: 20vh auto;
+}
+input{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 162, 233, 0.1);
+    /* border-radius: 10px; */
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #5C5C5C;
+    border: none;
+    width: 65vh;
+    height: 10vh;
+    padding: 5vh;
+    /* transform: translate(0, 3vh); */
+}
+#newpass{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    /* width: 300px; */
+}
+#repass{
+    transform: translate(0, 0.2vh);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* width: 300px; */
+}
+button{
+    background: linear-gradient(180deg, #00A2E9 0%, #5FC2ED 100%);
+    box-shadow: 0px 4px 40px rgba(0, 162, 233, 0.2);
+    border-radius: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    /* font-weight: bold; */
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFFFFF;
+    border: none;
+    width: 42vh;
+    height: 8vh;
+    transform: translate(0, 5vh);
+    
+}
